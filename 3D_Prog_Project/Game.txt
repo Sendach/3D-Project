@@ -1,0 +1,14 @@
+Starting Position First Room - X: -1.0f Y: 10.0f Z: -325.0f;
+
+Starting Position Second Room - X: 161.0f Y: 10.0f Z: -478f;
+
+Starting Position Third Room - X: 352.0f Y: 10.0f Z: -590.0f
+
+Exit in winning room - Z: -1111. Bigger than X: 106 and less than 127.0
+
+Bottom Y: -50.0f
+Top Y: 71.0f
+First Z: -731.0f	
+Last Z: 1110.0f
+First X: -30.0f
+Last X: 232.0f

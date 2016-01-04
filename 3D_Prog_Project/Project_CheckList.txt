@@ -1,0 +1,64 @@
+Mandatory Techniques : 
+
+Use Perspective Camera // Done
+Textures in your 3D Models // Done
+Implement Ambient, Diffuse & Specular // Done
+First Persom Camera Movement // Done
+Have to use Vertex&Fragment Shader (Geometry Shader not mandatory) // Done
+
+Core techniques (1):
+o Deferred Rendering ********************** ROOM 4 **********************
+o Skeletal Animation (M3D, FBX, Collada, etc)
+
+- Geometry (2):
+o Parsing and rendering an existing model format (OBJ, FBX, Collada,
+etc). This includes parsing and using the material defined in the
+format (textures) // Done. Just add the Material thing
+o Height-map terrain rendering, user can walk on the terrain
+o Displacement mapping using Tessellation hardware
+o Level of Detail using Tessellation
+o Morph-based vertex animation
+
+- Texturing and Lighting (1):
+o Normal mapping ********************** ROOM 2 **********************
+o Dynamic Ambient Occlusion
+o Blend mapping (multi-texturing)
+
+- Projection Techniques (1):
+o Shadow mapping ********************** ROOM 1 **********************
+o Shadow volumes
+o Dynamic cubic environment mapping
+o Dynamic paraboloid mapping
+
+- Acceleration Techniques (2):
+o View frustum culling against a quadtree
+o Occlusion culling
+o Back face culling using Geometry Shader ********************** ROOM 3 **********************
+
+Other techniques (2):
+o Particle systems with billboarded particles ********************** FINAL WINNING ROOM **********************
+o Gaussian filter
+o Bilateral filter
+o Mouse Picking
+o Screen-Space Antialiasing
+o Water-effect
+o Glow-effect
+o Solve any technique listed in this category using Compute Shaders
+o Make a small game in your application ********************** FINAL ROOM ********************** 
+
+ en mål-tavla rör sig på väggen randomly, man måste försöka skjuta den o pricka mitten. Man får poäng etc - 
+Saker faller från taket, man måste fånga dom, tappar man 3 saker förlorar man.
+
+I will combine particle effcts and small game. The game will only be played in a room. you will be able to 
+press a button to start the game only if you're inside the room. You get a character, and things will be falling from the roof and 
+
+
+3D Text Adventure game. You enter a room. There are 2 paths, left and right. If you press Left/Right arrow key, you are taken to  a new room with new paths.
+Each room has a question, and a right or wrong. If you choose the wrong path( answer the question wrong) you go back to square one. After 3 questions.
+You win. You will go to a room where particles will be shooting from the ground up and a sign saying CONGRATS YOU WON. 
+
+Question 1 - What number do you get when you multiply all of the numbers on a telephone's number pad? Answer - 0
+Question 2 - Poor people have it. Rich people need it. If you eat it you die. What is it? - Answer: Nothing.
+Question 3 - What Occurs once in a minute, twice in a moment and never in a thousand years - Answer: The letter M
+
+Size of question pictures main in paint : 578X276 - Font : Cooper Black
